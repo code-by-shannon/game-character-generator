@@ -1,0 +1,11 @@
+body{
+    background-color:rgb(225, 218, 202)
+}
+
+.player-container{
+    display: flex;
+}
+
+.player{
+    padding: 20px;
+}
