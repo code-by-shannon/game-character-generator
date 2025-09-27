@@ -9,13 +9,25 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Character Builder</h1>
+    <h1>Battle the Bot - If You Dare</h1>
     <button class="js-start-battle-button">Start Battle!</button>
+    
     <div class="player-container">
         <div class = 'player1 player'></div>
         <div class = 'player2 player'></div>
     </div>
+    
+    <p class="p1-health"></p>
+    <p class = 'p2-health'></p>
+    <button class="fight-button">Fight</button>
+    <h2 class="round_announce"></h2>
+    <h2 class="winner"></h2>
+    <div id="score_div">
+        <h2 class= 'score_tracker'></h2>
+    </div>
    
+    
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
